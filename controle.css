@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'oswald' ;
+    src: url('../fontes/Oswald.ttf')format('truetype');
+}
+body{
+    background-color: #181818;
+}
+p{
+    display: inline;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 25px;
+    font-family:'oswald',Verdana, Tahoma, sans-serif;
+    color: #c84025;
+}
+div#controle{
+    background-color: #D4D0CD;
+    margin: 200px auto;
+    width: 524px;
+    height: 216px;
+    border-radius: 4px;
+    border:0.5px solid #D4D0CD;
+}
+div#ped{
+    background-color: #1D1D1D;
+    width: 503px;
+    height: 168px;
+    margin: 30px auto 15px auto;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
+div#analogico{
+    width: 142.5px;
+    height: 150px;
+    padding-top: 44px;
+    padding-bottom: 24px;
+    float: left;
+}
+div#hori{
+    background-color: #D4D0CD ;
+    width: 48px ;
+    height: 103px ;
+    margin-left: 52px ;
+    border-radius: 4px;
+    padding-top: 2px;
+}/*eu acabei torcando o horisontal(hori) pelo verdical(vert) por falta de atenão*/
+div#vert{
+    background-color: #D4D0CD ;
+    width: 108px ;
+    height: 42px ;
+    margin-top: 30px;
+    margin-left: -30px ;
+    border-radius: 4px;
+    padding-top: 2px;
+}
+div#Bmeio{
+    background-color: #27262b;
+    width: 36px;
+    height: 39px;
+    margin-left: 35px;  
+}
+div#Bsima{
+    background-color: #27262b;
+    width: 36px;
+    height: 31px;
+    margin-top: -29px;
+    margin-left: 35px;
+    box-shadow: 4.5px 4.5px #616161;
+    border-radius: 4px 4px 0px 0px;
+}
+div#Besquerda{
+    background-color: #27262b;
+    width: 28px;
+    height: 35px;
+    margin-left: 4px;
+    margin-top: 0px;
+    box-shadow: 4.5px 4.5px #616161;
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+}
+div#Bdireita{
+    background-color: #27262b;
+    width: 33px;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: -40px;
+    box-shadow: 4.5px 4.5px #616161;
+    border-radius: 0px 4px 4px 0px;
+    float: right;
+}
+div#Bbaixo{
+    background-color: #27262b;
+    width: 36px ;
+    height: 34px ;
+    margin-top: -10px;
+    margin-left: 35px;
+    box-shadow: 4.5px 4.5px #616161;
+    border-radius: 0px 0px 4px 4px;
+}
+div#antsombra{
+    background-color: #27262b;
+    width: 31px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+div#Bsima:active{
+    background-color: #27262b;
+    width: 36px;
+    height: 32px;
+    margin-top: -30px;
+    margin-left: 35px;
+    box-shadow: 3px 3px #616161;
+    border-radius: 4px 4px 0px 0px;
+}
+div#Besquerda:active{
+    background-color: #27262b;
+    width: 29px;
+    height: 35px;
+    margin-left: 3px;
+    margin-top: 0px;
+    box-shadow: 4.5px 4.5px #616161;
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+}
+div#Bdireita:active{
+    background-color: #27262b;
+    width: 33px;
+    height: 35px;
+    margin-right: 4px;
+    margin-top: -40px;
+    box-shadow: 3px 3px #616161;
+    border-radius: 0px 4px 4px 0px;
+    float: right;
+}
+div#Bbaixo:active{
+    background-color: #27262b;
+    width: 36px ;
+    height: 35px ;
+    margin-top: -10px;
+    margin-left: 35px;
+    box-shadow: 3px 3px #616161;
+    border-radius: 0px 0px 4px 4px;
+}
+/*a parte do meio começa aqui*/
+div#meio{
+    background-color: #1D1D1D;
+    width: 192px;
+    height: 176px;
+    margin-left: 11px;
+    display: inline-block;
+}
+div.meioc1{
+    background-color: #787878;
+    width: 165px;
+    height: 30px;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 15px;
+}
+div.meioc2{
+    background-color: #787878;
+    width: 165px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+div#areaB{
+    background-color: #CDCDCD;
+    width: 150px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 22.5px;
+    border-radius: 4px;
+}
+div.meioc3{
+    background-color: #787878;
+    width: 165px;
+    height: 16px;
+    border-radius: 4px 4px 0px 0px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+div.sl{
+    background-color: #27262b;
+    width: 53px;
+    height: 15px;
+    margin-top: 17px;
+    margin-left: 14px;
+    border-radius: 20px;
+    box-shadow: 4.5px 4.5px #616161;
+    float: left;
+}
+div.st{
+    background-color: #27262b;
+    width: 53px;
+    height: 15px;
+    margin-top: 17px;
+    margin-right: 14px;
+    border-radius: 20px;
+    box-shadow: 4.5px 4.5px #616161;
+    float: right;
+}
+div.sl:active{
+    background-color: #27262b;
+    width: 54px;
+    height: 15px;
+    margin-top: 18px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #616161;
+    float: left;
+}
+div.st:active{
+    background-color: #27262b;
+    width: 53px;
+    height: 15px;
+    margin-top: 18px;
+    margin-right: 12px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #616161;
+    float: right;
+}
+/*aqui começa os botoes A e B*/
+div#AB{
+    background-color: #1D1D1D;
+    width: 142.5px;
+    height: 152px;
+    padding-top: 24px;
+    float: right;
+}
+p#marca{
+    margin-left: 30px;
+}
+div#A{
+    background-color: #CDCDCD;
+    height: 47px;
+    width: 47px;
+    margin-top: 57px;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+div#B{
+    background-color: #CDCDCD;
+    height: 47px;
+    width: 47px;
+    margin-top: 57px;
+    margin-left: 0px;
+    border-radius: 4px;
+    display: inline-block;
+}
+div#Ba{
+    background-color: #c84025;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    box-shadow: 4.5px 4.5px #616161;
+}
+div#Bb{
+    background-color: #c84025;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    box-shadow: 4.5px 4.5px #616161;
+}
+div#Ba:active{
+    background-color: #c84025;
+    width: 34px;
+    height: 34px;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #616161;
+}
+div#Bb:active{
+    background-color: #c84025;
+    width: 34px;
+    height: 34px;
+    margin-top: 6px;
+    margin-left: 7px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #616161;
+}
