@@ -10,7 +10,7 @@ p{
     display: inline;
     font-size: 17px;
     font-weight: 700;
-    margin-left: 25px;
+    margin-left: 38px;
     font-family:'oswald',Verdana, Tahoma, sans-serif;
     color: #c84025;
 }
@@ -44,7 +44,8 @@ div#hori{
     margin-left: 52px ;
     border-radius: 4px;
     padding-top: 2px;
-}/*eu acabei torcando o horisontal(hori) pelo verdical(vert) por falta de atenão*/
+}
+/*eu acabei torcando o horisontal(hori) pelo verdical(vert) por falta de atenão*/
 div#vert{
     background-color: #D4D0CD ;
     width: 108px ;
@@ -182,6 +183,13 @@ div.meioc3{
     margin-top: 5px;
     margin-left: 15px;
 }
+p.ss{
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-left: 13px;
+    margin-top: 5px;
+    display:inline-block;
+}
 div.sl{
     background-color: #27262b;
     width: 53px;
@@ -286,4 +294,7 @@ div#Bb:active{
     margin-left: 7px;
     border-radius: 20px;
     box-shadow: 2px 2px #616161;
+}
+p#marca{
+    margin-left: 3px;
 }
